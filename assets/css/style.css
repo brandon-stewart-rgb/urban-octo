@@ -8,7 +8,14 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #fff;
 }
-/* Begin Header */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+}
+/* Header Style Start */
 .header {
     padding: 20px;
     background-color: #2a607c;
@@ -30,14 +37,10 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-p {
-    font-size: 16px;
-}
-/* Begin Hero */
+/* Header Style End */
+
+
+/* Hero Style Start */
 .hero {
     height: 800px;
     width: 100%;
@@ -46,7 +49,9 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* Begin Content */
+/* Hero Style End */
+
+/* Content Style Start */
 .content {
     width: 75%;
     display: inline-block;
@@ -67,15 +72,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-/* Begin Aside "Benefits" */
+/* Content Style End */
+/* Aside Style Start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,7 +117,16 @@ p {
     height: 130px;
     margin: 0 auto;
 }
-/*Begin Footer */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Aside Style End */
+/* Footer Style Start */
 .footer {
     padding: 30px;
     clear: both;
