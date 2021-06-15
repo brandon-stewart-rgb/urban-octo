@@ -15,31 +15,28 @@ a {
 p {
     font-size: 16px;
 }
-/* Header Style Start */
-.header {
+/* Header Nav Style Start */
+header {
     padding: 20px;
     background-color: #2a607c;
 }
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
 }
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* Header Style End */
-
-
 /* Hero Style Start */
 .hero {
     height: 800px;
@@ -49,15 +46,13 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* Hero Style End */
-
-/* Content Style Start */
-.content {
+/* Main Style Start */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-.content section {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -65,16 +60,15 @@ p {
     background-color: #2a607c;
     color: #ffffff;
 }
-.content section img {
+main section img {
     max-height: 200px;
 }
-.content section h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Content Style End */
 /* Aside Style Start */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -85,15 +79,15 @@ p {
     background-color: #2a607c;
     color: #fff;
 }
-.benefits h3 {
+aside h3 {
     margin: 20px 0 5px 0;
     text-align: center;
     font-size: 24px;
 }
-.benefits section {
+aside section {
     margin-bottom: 53px; 
 }
-.benefits .benefit-lead div {
+aside .benefit-lead div {
     background-image: url("../images/lead-generation.png");
     background-position: center;
     background-size: 75%;
@@ -101,7 +95,7 @@ p {
     height: 130px;
     margin: 0 auto; 
 }
-.benefits .benefit-brand div {
+aside .benefit-brand div {
     background-image: url("../images/brand-awareness.png");
     background-position: center;
     background-size: 75%;
@@ -109,7 +103,7 @@ p {
     height: 130px;
     margin: 0 auto;
 }
-.benefits .benefit-cost div {
+aside .benefit-cost div {
     background-image: url("../images/cost-management.png");
     background-position: center;
     background-size: 75%;
@@ -125,14 +119,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-/* Aside Style End */
 /* Footer Style Start */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     color: #000;
     text-align: center;
 }
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
